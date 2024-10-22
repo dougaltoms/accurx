@@ -1,7 +1,7 @@
 ## Accurx Analaytics Engineer Task
 ---
 
-- Snowflake Instance: https://app.snowflake.com/qgexdqj/lp72831/#/homepage
+- ❄️ Snowflake Instance: https://app.snowflake.com/qgexdqj/lp72831/#/homepage
 - Users: `BETH` & `FRAN`
 - Passwords: Reset on login
 - Database: `ACCURX` 
