@@ -17,12 +17,19 @@ The Data team have been receiving multiple ad-hoc requests from colleagues in th
 5. Do we experience churn of any features?
 
 ### Conceptual Data Model
+Aims to understand key data entities and how they relate.
+![alt text](https://github.com/dougaltoms/accurx/blob/tree/main/images/cdm.png?raw=true)
 
 ### Physical Data Model
+**Star Schema**
+- *Simple* and intuitive for business users
+- *Future proof* - can add new dimensions e.g. this model could be enriched with location data `DIM_GEOG`
+- *Scalabile*  - dimensions are independent e.g. As NHS organisations evolve and change, so can the DIM_ORGANISATION table
+![alt text](https://github.com/dougaltoms/accurx/blob/tree/main/images/pdm.png?raw=true)
 
-### Data Flow
-
-### Solution Design
+### Solution Design Overview
+High level data flow showing ingestion into Snowflake from source systems, logical separation of transformations by schemas and downstream reporting systems (Power BI & Streamlit)
+![alt text](https://github.com/dougaltoms/accurx/blob/tree/main/images/flow.png?raw=true)
 
 #### Power BI Report
 
