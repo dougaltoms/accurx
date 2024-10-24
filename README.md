@@ -56,10 +56,20 @@ Aims to understand key data entities and how they are related.
 ### Solution Design <a name="SolutionDesign"></a>
 
 ##### Power BI Report <a name="PowerBIReport"></a>
-*BI Subteam* can work with Commercial team to build internal report answering Qs 1-5. The provided data model enables self-service, meaning views can be built ad-hoc in Snowflake `04_PRESENTATION` schema by the BI team or business users
+*BI Subteam* can work with Commercial team to build internal report answering Qs 1-5. The provided data model enables self-service, meaning views can be built ad-hoc in Snowflake `04_PRESENTATION` schema by the BI team or business users.
+
+e.g.
+- Most used features
+- Feature churn
+- User/Organisation/Geographic trends
 
 ##### Streamlit Predictive Analytics <a name="StreamlitPredictiveAnalytics"></a>
 *Data Science and Analytics subteam* can prototype some predictive analytics and forecasting, using Snowflake out-of-the-box models from Cortex. Combined with Streamlit, this can provide the business with an interactive UI, helping them to explore data and gain new insights
+
+e.g.
+- Time-series forecasting (churn, feature usage)
+- Increased interactivity via UI
+- Abaility to write to Snowflake
 
 ### Next Steps <a name="NextSteps"></a>
 Difficulties faced with this task:
